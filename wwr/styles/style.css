@@ -1,9 +1,18 @@
 body {
     background-color: #F9EBC8;
+    font-family: 'Ubuntu';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 8em;
 }
 
 header {
     background-color: #FEFBE7;
+    font-family: "Ubuntu";
 }
 
 nav a:hover {
@@ -13,6 +22,7 @@ nav a:hover {
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #content {
@@ -27,6 +37,10 @@ nav a {
 
 h1 {
     text-align: center;
+}
+
+h2 {
+    margin: 0;
 }
 
 h3 {
@@ -46,14 +60,27 @@ main section {
     background-color: #A0BCC2;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .book {
     background-color: #A0BCC2;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 
 .join {
     background-color: #F9EBC8;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -66,17 +93,56 @@ main section {
 
 .msg {
     background-color: #F9EBC8;
+    font-size: 8em;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #FEFBE7;
     text-decoration: underline;
+    padding: 25px 50px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.home-title {
+    font-family: 'Montserrat';
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+.social img {
+    padding-top: 15px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
