@@ -238,6 +238,57 @@ main section img {
     height: 945px;
 }
 
+/* CSS For Page 2 */
+
+#background2 {
+    height: 0;
+    background-color: #A0BCC2;
+    grid-column: 1/11;
+    grid-row: 4/9;
+
+}
+
+.rivers2 {
+    width: 1430px;
+}
+
+.msg2 {
+    background-color: #b4be98;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+
+#background3 {
+    height: 725px;
+    background-color: #6a9a76;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.msg3 {
+    background-color: #b1c57a;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-bottom: 400px;
+    margin-left: 300px;
+    position:relative
+    
+
+
+}
+
+.hendersons {
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #707e46;
+    margin-top: 5px;
+
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
