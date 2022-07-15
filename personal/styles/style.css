@@ -395,6 +395,24 @@ main section img {
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
+.beats {
+   background-color: #cf092d;
+   width: 200%;
+   margin-left: 300px;
+   margin-top: 100px;
+   height: 500px;
+   margin-bottom: 100px;
+}
+
+.youtube {
+    font-family: "Montserrat-black";
+    color: black;
+    
+    
+
+
+}
   
 @keyframes fade {
     from {opacity: .4}
